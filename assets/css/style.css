@@ -413,10 +413,18 @@ margin-top: 28px;
   cursor: pointer;
 }
 .feedback-item .content{
+  display: inline-block;
+  display: flex;
   width: 66%;
   margin-left: auto;
 }
+.open-quotes{
+  width: 30px;
+height: 28px;
+}
 .feedback-item block-quotes{
+  margin-top: 25px;
+  width: 740px;
   color: #FFF;
 font-size: 2.6rem;
 font-style: italic;
